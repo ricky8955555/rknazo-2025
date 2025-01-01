@@ -27,6 +27,8 @@ src
 
 ## 题目
 
+### 源码
+
 0. [my_users](src/chal/00-my_users/)
 1. [dont_get_lost](src/chal/01-dont_get_lost/)
 2. [pipe_worker](src/chal/02-pipe_worker/)
@@ -35,4 +37,12 @@ src
 5. [patch_your_neko](src/chal/05-patch_your_neko/)
 6. [easy_http](src/chal/06-easy_http/)
 
-所有题目设计及题解均写于 [design](design/) 目录下。
+### 题目设计及题解
+
+0. [my_users](design/00-my_users/)
+1. [dont_get_lost](design/01-dont_get_lost/)
+2. [pipe_worker](design/02-pipe_worker/)
+3. [say_millions_of_yes_to_me!](design/03-say_millions_of_yes_to_me!/)
+4. [sleep_lover](design/04-sleep_lover/)
+5. [patch_your_neko](design/05-patch_your_neko/)
+6. [easy_http](design/06-easy_http/)
