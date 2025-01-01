@@ -11,7 +11,7 @@
 见 Manpage 中 `signal (2)`:
 
 > The effects of signal() in a multithreaded process are unspecified.
-> 在多线程进程中使用 signal() 的效果是未定义的。
+> 在多线程进程中使用 signal() 的效果是不明确的。
 
 另外 Manpage 中 `kill (1)`:
 
