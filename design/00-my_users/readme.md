@@ -9,7 +9,7 @@
 在获取得 `passwd` 之后，可看到 `flag` 用户 `GECOS` 字段存有一段 Hex 字符串，对该字符串进行 Hex 解码即可获得 flag。
 
 ```log
-/rknazo/chal/01-dont_get_lost # getent passwd
+/rknazo/chal/00-my_users # getent passwd
 root:x:0:0:root:/root:/bin/sh
 bin:x:1:1:bin:/bin:/sbin/nologin
 daemon:x:2:2:daemon:/sbin:/sbin/nologin
@@ -29,6 +29,6 @@ guest:x:405:100:guest:/dev/null:/sbin/nologin
 nobody:x:65534:65534:nobody:/:/sbin/nologin
 flag:x:1000:1000:666c61677b36626564353336662d626465322d303063322d666130302d3663313036306234343762367d:/dev/null:/sbin/nologin
 
-/rknazo/chal/01-dont_get_lost # echo 666c61677b36626564353336662d626465322d303063322d666130302d3663313036306234343762367d | xxd -r -p
+/rknazo/chal/00-my_users # echo 666c61677b36626564353336662d626465322d303063322d666130302d3663313036306234343762367d | xxd -r -p
 flag{6bed536f-bde2-00c2-fa00-6c1060b447b6}
 ```
