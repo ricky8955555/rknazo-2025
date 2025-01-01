@@ -1,0 +1,8 @@
+Try to access http://127.79.0.1
+Maybe there is something useful in the log, located in a common log location.
+
+尝试去访问一下 http://127.79.0.1
+可能日志能帮助你解题, 日志就丢在大家都喜欢丢的地方, 自己去找找吧~
+
+If you are unable to access the site, please check your proxy settings.
+如果你无法访问站点，请检查你的代理设置。

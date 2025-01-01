@@ -1,0 +1,27 @@
+'rknait' Usage:
+'rknait' 使用方法:
+
+=== Function (功能) ===
+
+1. Add and check a flag
+
+This function is used to check and record the flag you got. The flags will be saved in a file.
+这个功能用于检查并记录你所获得的 flag. 你所获得的 flag 将会保存在文件中.
+
+
+2. Decrypt flags
+
+This function is used to decrypt the flags after you solve all the challenges.
+这个功能用于在你解决所有题目之后解密 flag.
+
+
+3. Show current progress
+
+This function is used to check how many challenges you've solved.
+这个功能用于检查你所通过的题目.
+
+
+=== Exit (退出) ===
+
+You can exit the program by pressing Ctrl-C or by selecting '0'.
+你可以通过按下 Ctrl-C 或选择 '0' 选项以结束程序.

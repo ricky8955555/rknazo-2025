@@ -1,0 +1,2 @@
+Try to run your neko(cat) with 'lib.so' loaded, then you can get what you want by passing it as a filename.
+试试加载 'lib.so' 并运行你的猫 (cat), 然后你告诉它你想要什么, 它会给你说出来的~

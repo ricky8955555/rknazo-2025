@@ -1,0 +1,6 @@
+The filename at the end of the link chain starting from 'flag' file is the real flag hex.
+Each file located in 'chaos' has a valid flag, but only one is valid for the final result.
+If you enter the wrong flag, the final result could not be decrypted successfully.
+
+在 'chaos' 文件夹每个文件的名字都是一个 Hex 形式的合法 flag.
+但只有 'flag' 符号链接最终指向的文件名是正确的且可用于解密出最终结果.
