@@ -1,8 +1,22 @@
 # sleep_lover
 
-## 补充说明
+## 赛时补充说明
 
 1. 为了叫醒他，你需要 **中断** 他的睡眠。
+
+## 结束后补充说明
+
+这道题目设计上存在问题。
+
+见 Manpage 中 `signal (2)`:
+
+> The effects of signal() in a multithreaded process are unspecified.
+> 在多线程进程中使用 signal() 的效果是未定义的。
+
+另外 Manpage 中 `kill (1)`:
+
+> it is not possible to send a signal to an explicitly selected thread in a multithreaded process.
+> 无法向多线程进程中明确的一个线程发送信号。
 
 ## 题解
 
