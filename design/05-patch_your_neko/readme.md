@@ -31,9 +31,9 @@ flag{e0525645-2b36-00ef-fa05-6adedcdc9cd2}
 /rknazo/chal/05-patch_your_neko # python3
 Python 3.12.8 (main, Dec  9 2024, 20:38:54) [GCC 14.2.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
->>> from ctypes import CDLL, c_char
->>> lib = CDLL("./lib.so")
->>> flag = (c_char * 64)()
+>>> import ctypes
+>>> lib = ctypes.CDLL("./lib.so")
+>>> flag = ctypes.create_string_buffer(64)
 >>> lib.getflag(flag)
 -102940927
 >>> flag.value
