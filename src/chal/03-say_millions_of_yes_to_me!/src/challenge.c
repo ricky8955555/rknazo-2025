@@ -25,7 +25,6 @@ bool iseol(int c) { return c == '\n' || c == '\0' || c == EOF; }
 int main() {
     size_t idx;
     char flag[FLAG_LENGTH];
-    int* arr;
     int randval;
     int buf;
 

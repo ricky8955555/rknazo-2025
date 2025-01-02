@@ -28,7 +28,9 @@ int main() {
         puts(
             "Pipe stderr to the null device, and pipe stdout to a file. I will "
             "write the flag to the file via stdout.");
-        puts("把标准错误扔掉, 然后把标准输出丢给文件. 我会走标准输出把 flag 给你的~");
+        puts(
+            "把标准错误扔掉, 然后把标准输出丢给文件. 我会走标准输出把 flag "
+            "给你的~");
     } else {
         getflag(flag);
         printf("%s\n", flag);

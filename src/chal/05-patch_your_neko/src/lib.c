@@ -38,7 +38,7 @@ int create_flag_memfd() {
 }
 
 int open(const char* pathname, int flags, ...) {
-    static int (*real_open)(const char* , int, ...) = NULL;
+    static int (*real_open)(const char*, int, ...) = NULL;
     if (real_open == NULL) {
         real_open = dlsym(RTLD_NEXT, "open");
     }
